@@ -25,7 +25,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR,'templates/')
 SECRET_KEY = 'j)d07@$vw3uv_fbokuzg!+$^x#&6x%_y+h*smhlw@#(^jbqn1$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     ############################
-    # 'accounts'
+    'accounts',
     'home',
 ]
 
