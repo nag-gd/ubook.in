@@ -12,7 +12,7 @@ class Friends(models.Model):
 
     class Meta:
         managed = True
-        db_table = 'home_friends'
+        # db_table = 'home_friends'
 
 class Create_Post(models.Model):
     title = models.CharField(max_length=225, null=True, blank=True)
@@ -24,6 +24,6 @@ class Create_Post(models.Model):
 
     class Meta:
         managed = True
-        db_table = 'home_posts'
+        # db_table = 'home_posts'
 
 
