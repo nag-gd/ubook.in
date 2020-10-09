@@ -12,6 +12,7 @@ class Friends(models.Model):
 
     class Meta:
         managed = True
+        app_label = 'home'
         # db_table = 'home_friends'
 
 class Create_Post(models.Model):
@@ -24,6 +25,7 @@ class Create_Post(models.Model):
 
     class Meta:
         managed = True
+        app_label = 'home'
         # db_table = 'home_posts'
 
 

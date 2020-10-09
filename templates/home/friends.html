@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-{%extends 'fuck/fuck.html'%}
+{%extends 'home/index.html'%}
 {%block head%}
 <title>My App | Friends</title>
 {%load static%}
 
-<link rel="stylesheet" href="{% static 'fuck/css/friends.css' %}">
-<script src="{% static 'fuck/js/friends.js' %}"></script>
+<link rel="stylesheet" href="{% static 'home/css/friends.css' %}">
+<script src="{% static 'home/js/friends.js' %}"></script>
 
 {%endblock%}
 
@@ -27,7 +27,7 @@
        </tr>
  {% for f in friends_list %}
        <tr>
-          <td><img src="{% static 'fuck/img/beer.png' %}" alt="" /></td>
+          <td><img src="{% static 'home/img/beer.png' %}" alt="" /></td>
           <td>{{f.name}}</td>
           <td>{{f.profession}}</td>
           <td>{{f.organization}}</td>
